@@ -6,7 +6,7 @@
 
 ![](img/index.jpg) 
 
-This project combines **YOLOv2**([reference](https://arxiv.org/abs/1506.02640)) and **seq-nms**([reference](https://arxiv.org/abs/1602.08465)) to realise **real time video detection**.
+This project combines **YOLOv2**([reference](https://arxiv.org/abs/1506.02640)) and **seq-nms**([reference](https://arxiv.org/abs/1602.08465)) to create **real time video detection**.
 
 ## Steps
 ### Previous steps
@@ -18,7 +18,7 @@ This project combines **YOLOv2**([reference](https://arxiv.org/abs/1506.02640)) 
 1. install cudatoolkit compatible with your gpu driver, this project was compiled with cudatoolkit10.1 and python 3.7
 1. install scipy matplotlib tensorflow imageio and numpy
 1. add your cuda bin path to the PATH variable
-1. add tour cuda lib64 path to the  LD_LIBRARY_PATH and LIBRARY_PATH variables
+1. add your cuda lib64 path to the  LD_LIBRARY_PATH and LIBRARY_PATH variables
 
 ### Compile and use the code
 1. `make` the project;
