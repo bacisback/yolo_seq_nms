@@ -24,22 +24,22 @@ This project combines **YOLOv2**([reference](https://arxiv.org/abs/1506.02640)) 
 1. make
 
 ### Download weights
-1. Download yolo.weights with the command:
-	wget https://pjreddie.com/media/files/yolo.weights
-1. Download tiny-yolo.weights by running:
-	wget https://pjreddie.com/media/files/yolov2-tiny.weights
+1. Download yolo.weights with the command:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	wget https://pjreddie.com/media/files/yolo.weights
+1. Download tiny-yolo.weights by running:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	wget https://pjreddie.com/media/files/yolov2-tiny.weights
 
 ### Usage
-1. Copy a video file to the video folder <input>
-1. In the video folder, run: 
-	python video2img.py -i <input>
-	python get_pkllist.py
-1. In the root floder and run:
-	python yolo_seqnms.py
+1. Copy a video file to the video folder <input><br/>
+1. In the video folder, run: <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	python video2img.py -i <input><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	python get_pkllist.py<br/>
+1. In the root floder and run:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	python yolo_seqnms.py<br/>
 Which will create the detections in the folder video/output
 
-1. If you want to reconstruct a video from these output images, you can go to the video folder and run: 
-	python img2video.py -i output
+1. If you want to reconstruct a video from these output images, you can go to the video folder and run: <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	python img2video.py -i output<br/>
 
 This last command will create an output video file in video/output folder.
 
